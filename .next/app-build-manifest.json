@@ -1,0 +1,46 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/pages/mpay/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/mpay/page.css",
+      "static/chunks/app/pages/mpay/page.js"
+    ],
+    "/pages/mercury-hub/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/mercury-hub/page.css",
+      "static/chunks/app/pages/mercury-hub/page.js"
+    ],
+    "/pages/mtouch/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/mtouch/page.css",
+      "static/chunks/app/pages/mtouch/page.js"
+    ],
+    "/pages/careers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/careers/page.css",
+      "static/chunks/app/pages/careers/page.js"
+    ],
+    "/pages/contact-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pages/contact-us/page.css",
+      "static/chunks/app/pages/contact-us/page.js"
+    ]
+  }
+}

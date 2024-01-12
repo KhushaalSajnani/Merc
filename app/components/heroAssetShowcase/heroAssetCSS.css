@@ -1,0 +1,56 @@
+.heroAssetContainer {
+    overflow: hidden;
+    border-radius: 20px;
+    height: 80vh;
+    position: relative;
+}
+
+.heroAssetContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: fit-content;
+    transform: translate(-50%, -0%);
+    color: rgb(var(--background-rgb));
+    padding: 60px 80px;
+    -webkit-font-smoothing: antialiased;
+    background: rgb(0 0 0 / 60%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);
+    width: 100%;
+    text-shadow: 1px 1px 12px #000000;
+}
+
+@media only screen and (max-width: 750px) {
+    .centered {
+        transform: translate(-50%, 0%);
+        padding: 60px 20px;
+        border-radius: 0px;
+        font-size: 34px;
+    }
+
+    .heroAssetContainer {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .heroAssetContainer img {
+        object-position: right;
+    }
+}
+
+/* 
+
+.heroAssetSource {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+} */

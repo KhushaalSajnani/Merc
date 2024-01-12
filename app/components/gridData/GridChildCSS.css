@@ -1,0 +1,143 @@
+.mTouchBrief .asset img, .m360Brief .asset img, .mHubPageBrief .asset img, .mHubBrief .asset img {
+    width: 340px !important;
+    height: 166px !important;
+}
+
+.mHubPageBrief .asset img, .mHubBrief .asset img {
+    scale: 1.5;
+}
+
+.mPayBrief .asset img {
+    width: 250px !important;
+    height: auto !important;
+}
+
+.aboutMercury .asset img {
+    width: 340px !important;
+    height: auto !important;
+}
+
+.mPayFeatureOne .asset, 
+.mPayFeatureTwo .asset, 
+.mPayFeatureThree .asset,
+.advisoryTag .asset,
+.techonologyTag .asset,
+.businessOperationsTag .asset,
+.memberManagementTag .asset,
+.riskManagementTag .asset {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mPayFeatureOne .asset img, 
+.mPayFeatureTwo .asset img, 
+.mPayFeatureThree .asset img, 
+.advisoryTag img,
+.techonologyTag img,
+.businessOperationsTag img,
+.memberManagementTag img,
+.riskManagementTag img,
+.determination img,
+.empathy img,
+.agility img,
+.diversity img {
+    width: 70px;
+    height: 70px;
+}
+
+.mPayFeatureOne, 
+.mPayFeatureTwo, 
+.mPayFeatureThree,
+.advisoryTag,
+.techonologyTag,
+.businessOperationsTag,
+.memberManagementTag,
+.riskManagementTag {
+    height: 540px;
+    border-radius: 30px;
+}
+
+.patternPosition {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.mHubGridSection {
+    max-width: 1180px !important;
+}
+
+.featureCheckList .checkbox-list-img-container img {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1280px) and (max-width: 2000px){
+    .mHubGridSectionGridContainer {
+        gap: 1.25rem !important;
+    }
+}
+
+.mHubFeaturesHeading {
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+
+.peopleManagementGrid .asset img {
+    border-radius: 20px;
+}
+
+.peopleManagementGrid .socialMediaIconContainer {
+    width: 30px;
+    height: 30px;
+}
+
+.peopleManagementGrid {
+    max-width: 300px;
+}
+
+.peopleContainer .asset {
+    max-height: 310px;
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.peopleContainer h3 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.peopleContainer h4 {
+    font-size: 20px !important;
+    font-weight:500;
+}
+
+.peopleContainer .asset img:hover {
+    scale: 1.1;
+}
+
+.basharBrief h3 {
+    font-size: 30px !important;
+    line-height: 38px !important;
+    font-weight: normal !important;
+}
+
+.basharBrief h4 {
+    font-size: 30px !important;
+    line-height: 38px !important;
+    font-weight: bold !important;
+}
+
+.basharBrief p {
+    font-size: 20px !important;
+    line-height: 24px !important;
+}

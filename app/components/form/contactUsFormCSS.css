@@ -1,0 +1,154 @@
+/* *,  *:before,  *:after  {
+    -moz-box-sizing:  border-box;
+    -webkit-box-sizing:  border-box;
+    box-sizing:  border-box;
+}
+
+@keyframes animatedBackground  {
+    from  {
+    background-position:  0 0;
+}
+to  {
+    background-position:  100% 0;
+}
+}
+.contactUsForm  {
+    max-width:  600px;
+    margin: 10px auto;
+    padding: 40px;
+    background:  #f4f4f4;
+    border-radius:  8px;
+}
+
+a{
+	color:#fff;
+	font-weight:400;
+	text-decoration:none;
+	font-size:26px;
+} */
+
+.contactUsForm  {
+    width: 100% !important;
+    margin: 10px auto;
+    padding: 40px;
+    background:  #f4f4f4;
+    border-radius:  8px;
+}
+
+.map-container {
+    min-height: 400px !important;
+    max-height: 500px !important;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+input[type="text"],  input[type="password"],  input[type="date"],  input[type="datetime"],  input[type="email"],  input[type="number"],  input[type="search"],  input[type="tel"],  input[type="time"],  input[type="url"],  textarea,  select  {
+    background: #ffffff;
+    border:  1px solid #ffffff;
+    font-size:  16px;
+    height:  auto;
+    margin:  0;
+    outline:  0;
+    padding:  15px;
+    width:  100%;
+    background-color:  #ffffff;
+    color:  #000000;
+    box-shadow:  0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom:  20px;
+    border-radius: 5px;
+}
+input[type="radio"],  input[type="checkbox"]  {
+    margin:  0 4px 8px 0;
+}
+select  {
+    padding:  15px;
+    border-radius:  5px;
+}
+
+fieldset  {
+    border:  none;
+}
+legend  {
+    font-size:  1.4em;
+    margin-bottom:  10px;
+}
+label  {
+    display:  block;
+    margin-bottom:  8px;
+}
+label.light  {
+    font-weight:  300;
+    display:  inline;
+}
+.number  {
+    background-color:  #5fcf80;
+    color:  #fff;
+    height:  30px;
+    width:  30px;
+    display:  inline-block;
+    font-size:  0.8em;
+    margin-right:  4px;
+    line-height:  30px;
+    text-align:  center;
+    border-radius:  100%;
+}
+
+
+.fieldGroup {
+    padding: 0 0 20px;
+    outline: none;
+    border: none;
+}
+
+.form-control, .phoneNumber {
+    width: 100% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border: 1px solid #ffffff;
+    background-color: #ffffff !important;
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+}
+
+input[type="tel"] {
+    box-shadow: none !important;
+}
+
+.flag-dropdown {
+    border: none !important;
+    background-color: #ffffff !important;
+    border-radius: 5px !important;
+}
+
+.contact-us-home {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.react-tel-input .selected-flag {
+    border-radius: 5px !important;
+    background-color: transparent !important;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #ccc;
+    -wekbit-font-smoothing: antialiased;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.fileUpload {
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    width: 100%;
+    padding: 40px 40px 40px 20px;
+}
+
+input:focus, textarea:focus, .phoneNumber:focus {
+    border: 1px solid #000000;
+  }
+
+  .react-tel-input .form-control {
+    border: none !important;
+  }
